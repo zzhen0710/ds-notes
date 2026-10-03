@@ -1,0 +1,43 @@
+# ==================== Obsidian ====================
+# Obsidian 本地配置（插件、主题、快捷键、工作区布局）
+.obsidian/
+# Obsidian 回收站
+.trash/
+
+# ==================== Obsidian 插件缓存 ====================
+# Smart Connections 插件缓存（可能几百 MB）
+.smart-env/
+# Obsidian Git 插件本地数据
+.obsidian-git-data/
+# 通用插件缓存
+.obsidian-cache/
+
+# ==================== 系统文件 ====================
+# macOS
+.DS_Store
+._*
+# Windows
+Thumbs.db
+desktop.ini
+# Linux
+*~
+
+# ==================== 编辑器 / IDE ====================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==================== 临时文件 ====================
+*.tmp
+*.bak
+*.log
+
+# ==================== 依赖 / 构建产物（如果以后加脚本） ====================
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+dist/
+build/
